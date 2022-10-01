@@ -1,0 +1,21 @@
+body {
+  background-color: blanchedalmond;
+}
+.class1 {
+  background-color: #333;
+  width: 450px;
+  height: 500px;
+  margin: 80px auto;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 0px;
+}
+button {
+  background-color: white;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="problem3.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row1">
+            <header>ID Card Generator</header>
+        </div>
+        <div class="row2">
+            <div class="col1">
+                <p>Enter Student Details</p>
+                <table>
+                    <tr>
+                        <td>Enter Name:<br>
+                            <i class="fa fa-user icon">
+                                <input class="input-field" id="name" type=text/input></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Enter College Name:<br>
+                             <i class=" fa fa-university icon">
+                                <input class="input-field" id="college" type=text/input></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Enter Location:<br>
+                            <i class="fa fa-id-badge icon">
+                                <input class="input-field" id="location" type=text/input></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Enter student's picture:<br>
+                            <input type="file" id="filename"></input><br>
+                            <img src="id.png" height="70px" width="70px" id="previewing"><br>
+                            <button type="submit" class="btn" onclick="report()">Generate card</button>
+                        </td>    
+                    </tr>
+                </table>
+            </div>
+            <div class="col2">
+                <div class="heading2">Generated Card</div>
+                <div class="flex2">
+                    <img src="./id.png" alt="" id="image">
+                    <div id="container4">
+                        <div id="name12"><span id="name1"></span></div><br>
+                        <div id="college_name12"><span id="college_name"></span> </div><br>
+                        <div id="location_name12"><span id="location_name"></span> </div><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+<script src="problem3.js"></script>
+</html>
